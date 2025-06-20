@@ -54,7 +54,7 @@ const Gallery = () => {
     },
     {
       id: 5,
-      src: '/images/image.png',
+      src: '/images/galeri_logo.jpg',
       category: 'salon',
       title: 'Sitem Taze Logo',
       description: 'Sitem Taze Beauty logomuzu salon girişinde görebilirsiniz'
