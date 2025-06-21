@@ -1,8 +1,13 @@
 {
+  "functions": {
+    "api/robots.js": {
+      "runtime": "nodejs18.x"
+    }
+  },
   "rewrites": [
     {
       "source": "/robots.txt",
-      "destination": "/google4285312472bbaa8f.html"
+      "destination": "/api/robots"
     }
   ]
 } 
