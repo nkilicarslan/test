@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/robots.txt",
+      "destination": "/google4285312472bbaa8f.html"
+    }
+  ]
+} 
