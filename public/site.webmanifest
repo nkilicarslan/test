@@ -3,12 +3,12 @@
     "short_name": "SitemTaze",
     "icons": [
         {
-            "src": "/images/logo.png",
+            "src": "/images/image.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "/images/logo.png",
+            "src": "/images/image.png",
             "sizes": "512x512",
             "type": "image/png"
         }
