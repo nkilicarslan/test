@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { 
   Heart, 
@@ -16,6 +16,10 @@ import {
 } from 'lucide-react';
 
 const About = () => {
+  useEffect(() => {
+    document.title = 'Hakkımızda - SitemTaze Güzellik Salonu';
+  }, []);
+
   const values = [
     {
       icon: Heart,

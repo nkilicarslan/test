@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { 
   Phone, 
@@ -14,6 +14,10 @@ import {
 } from 'lucide-react';
 
 const Home = () => {
+  useEffect(() => {
+    document.title = 'Ana Sayfa - SitemTaze Güzellik Salonu';
+  }, []);
+
   const services = [
     {
       title: 'Dudak Renklendirme',
