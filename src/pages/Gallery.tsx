@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { 
   Camera, 
@@ -12,10 +12,6 @@ import {
 } from 'lucide-react';
 
 const Gallery = () => {
-  useEffect(() => {
-    document.title = 'Galeri - SitemTaze Güzellik Salonu';
-  }, []);
-
   const [selectedImage, setSelectedImage] = useState<number | null>(null);
   const [activeCategory, setActiveCategory] = useState('all');
 

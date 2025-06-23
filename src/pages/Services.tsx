@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import { 
   Phone, 
@@ -14,10 +14,6 @@ import {
 } from 'lucide-react';
 
 const Services = () => {
-  useEffect(() => {
-    document.title = 'Hizmetlerimiz - SitemTaze Güzellik Salonu';
-  }, []);
-
   const services = [
     {
       id: 1,
